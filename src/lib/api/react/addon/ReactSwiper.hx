@@ -66,7 +66,8 @@ typedef SwiperOptions = {
     ? onTouchStart : Swiper -> Void,
     ? onProgress : Swiper -> Int -> Void,
     // FreeMode
-    ? freeModeMomentum : Bool
+    ? freeModeMomentum : Bool,
+    ? freeModeMomentumRatio : Float
 }
 
 typedef ReactSwiperProps = {
